@@ -1,0 +1,49 @@
+.col {
+    position: relative;
+    margin:0 auto;
+    height:auto; 
+    width: 200px;
+    image-rendering: pixelated; 
+    image-rendering: -moz-crisp-edges;
+  }
+  
+  .col img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  .top {
+    height:auto; 
+    width: 150px;
+    animation-name: fade;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+
+  .bottom {
+    height:auto; 
+    width: 150px;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
