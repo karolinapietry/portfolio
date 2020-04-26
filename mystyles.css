@@ -17,7 +17,7 @@
   }
   .top {
     height:auto; 
-    width: 150px;
+    width: 170px;
     animation-name: fade;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -27,7 +27,7 @@
 
   .bottom {
     height:auto; 
-    width: 150px;
+    width: 170px;
     animation-iteration-count: infinite;
     animation-duration: 1s;
     animation-direction: alternate;
